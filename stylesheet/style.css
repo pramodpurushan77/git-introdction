@@ -1,0 +1,154 @@
+    html,body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+			line-height: 230%;
+            font-weight:400;
+        }
+        .header{
+            background: white;
+            display: flex;
+            flex-direction: row;
+            box-shadow: 3px 5px 50px #b7bbb9;
+            border-bottom: 3px solid #3CB371;
+            border-radius: 0 0px 2px 2px;
+        }
+        .header a{
+            line-height: 80%;
+            margin: auto;
+            text-decoration: none;
+            color: #3CB371;
+            font-size: 17px;
+            transition: color 0.3s ease-in-out;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .header a:hover{
+            color: #0a0a0a;
+            font-weight: bolder;
+        }
+        .logo{
+            width: 135px;
+            height: 105px;
+        }
+        #about{
+            padding: 6% 10% 6% 10%;
+            font-size: 25px;
+            /*background: rgba(60, 179, 113, 0.19);*/
+            text-align: center;
+        }
+        #vision{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;  
+            box-shadow: 3px 0px 3px rgba(60, 179, 113, 1);
+        }
+        #vision div{
+            width: 50%;
+            padding: 3% 4% 3% 4%;
+            font-size: 22px;
+            /*background: rgba(60, 179, 113, 0.19);*/
+            text-align: center;
+        }
+        #offerings{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 3% 2% 3% 2%;
+        }
+        #offerings div{
+            width: 47%;
+            text-align: center;
+            padding: 4% 1% 4% 1%;
+            font-size: 20px;
+            box-shadow: 1px 1px 2px #3CB371;
+            border-right: solid 2px #3CB371;
+        }
+        #contacts{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+        #contacts div{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            padding: 2%;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+        }
+        .ctr-txt{
+            text-align: center;
+            line-height: 100%;
+            width: 100%;
+        }
+        .ico-ggl{
+            font-size: 50px;
+        }
+        .papp-link{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 35px;
+            margin: 3% 2% 3% 1%;
+            font-weight: 600;
+        }   
+        .google-pl-icon{
+           width: 323px;
+           height: 125px;
+           transition: transform 0.21s ease-in-out;
+        }
+        .google-pl-icon:hover{
+            transform: scale(1.01);
+            box-shadow: 3px 3px 20px #b7bbb9;
+        }
+        .new-post{
+            display: flex;
+            flex-direction: row;
+        }
+        .new-post div{
+            background-size: cover;
+            height: 300px;
+            flex: 1;
+            margin: 2% 1% 2% 1%;
+            border-radius: 1%;
+            display: flex;
+            flex-direction: column;
+            padding: 1%
+        }
+        .new-post div:nth-of-type(1){
+            background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.6)),url("https://www.immunology.org/sites/default/files/rheumatoid%20arthritis%20shutterstock_%20Lightspring.jpg");
+        }
+        .new-post div:nth-of-type(2){
+            background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.6)),url("https://stridesportsphysio.ca/wp-content/uploads/2020/01/arthritis-0129-1280x500-1.jpg");
+        }
+        .new-post-h{
+            font-size: 35px;
+            color: white;
+            align-self: flex-end;
+        }
+        .new-post-subh{
+            font-size: 17px;
+            color: #eee;
+            align-self: flex-end;
+            
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .all-posts{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .blog-card{
+            margin: 0.1% 1% 1% 1%; 
+            flex:350px;
+            max-width: 422.7px;
+            min-width: 350px;
+            height: 250px;
+            background: purple;
+            border-radius: 1%;
+        }
